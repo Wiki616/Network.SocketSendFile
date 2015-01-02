@@ -1,0 +1,11 @@
+request：
+get_filename_path 将文件服务器path目录下的filename文件get到本地
+put_filename_path 将文件filename放到服务器path目录下
+query	查看服务器存放目录
+
+response：
+200 : query 成功过
+201 ：put 成功
+202 ：get 成功
+400 ：request指令无效
+401 ：服务器不存在该目录

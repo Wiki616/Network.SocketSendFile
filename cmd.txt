@@ -1,0 +1,2 @@
+netstat -ano|findstr 9999
+taskkill /pid 2076 /F
